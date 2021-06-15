@@ -641,6 +641,7 @@
     <ClInclude Include="VideoCommon\TextureConverterShaderGen.h" />
     <ClInclude Include="VideoCommon\TextureDecoder_Util.h" />
     <ClInclude Include="VideoCommon\TextureDecoder.h" />
+    <ClInclude Include="VideoCommon\TmemBase.h" />
     <ClInclude Include="VideoCommon\TextureInfo.h" />
     <ClInclude Include="VideoCommon\UberShaderCommon.h" />
     <ClInclude Include="VideoCommon\UberShaderPixel.h" />
@@ -1192,6 +1193,7 @@
     <ClCompile Include="VideoCommon\TextureConversionShader.cpp" />
     <ClCompile Include="VideoCommon\TextureConverterShaderGen.cpp" />
     <ClCompile Include="VideoCommon\TextureDecoder_Common.cpp" />
+    <ClCompile Include="VideoCommon\TmemBase.cpp" />
     <ClCompile Include="VideoCommon\TextureInfo.cpp" />
     <ClCompile Include="VideoCommon\UberShaderCommon.cpp" />
     <ClCompile Include="VideoCommon\UberShaderPixel.cpp" />

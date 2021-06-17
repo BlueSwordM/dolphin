@@ -241,3 +241,10 @@ List of user folders:
 Custom textures have to be placed in the user directory under
 `Load/Textures/[GameID]/`. You can find the Game ID by right-clicking a game
 in the ISO list and selecting "ISO Properties".
+
+## Additional notes and disclaimer
+
+This is the source code of a semi-custom build for Sonic Riders stuff, which includes the original Sonic Riders and Zero Gravity games, as well as the Sonic Riders DX and Zero Gravity: Regravitified mod projects.
+A link to these will soon be included in this repository.
+
+So yeah, not many official Dolphin patches or pull requests will be included :P

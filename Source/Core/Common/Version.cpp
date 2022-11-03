@@ -19,15 +19,12 @@ namespace Common
 
 const std::string& GetScmRevStr()
 {
-  static const std::string scm_rev_str = "Dolphin "
-#if !SCM_IS_MASTER
-                                         "[" SCM_BRANCH_STR "] "
-#endif
+  static const std::string scm_rev_str = "ExGL-Dolphin V1.06 "
 
 #ifdef __INTEL_COMPILER
       BUILD_TYPE_STR SCM_DESC_STR "-ICC";
 #else
-      BUILD_TYPE_STR SCM_DESC_STR;
+      BUILD_TYPE_STR;
 #endif
   return scm_rev_str;
 }
